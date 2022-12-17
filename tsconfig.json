@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "ES2022",
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "NodeNext",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "target": "ES2022",
+    "outDir": "dist",
+    "esModuleInterop": true,
+  },
+  "include": ["./src/**/*"],
+  "exclude": ["node_modules", "dist"],
+  "ts-node": {
+    "swc": true
+  }
+}
